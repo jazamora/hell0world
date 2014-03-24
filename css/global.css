@@ -1,0 +1,20 @@
+html { 
+  background: url(/images/kids_coding.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo-container{
+	margin-top: 10%;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	color: rgb(255,255,255);
+	font-size: 500%;
+	text-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
