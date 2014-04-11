@@ -1,20 +1,395 @@
-html { 
-  background: url(/images/kids_coding.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body, html{
+	font-family: 'Roboto', sans-serif;
+	font-weight: light 300;
+	font-size: 18px;
+	margin:0;
+	padding:0;
 }
 
-#logo-container{
-	margin-top: 10%;
+.wrapper{
+	padding:60px 20px;
+	min-height:50px;
+	max-width:1080px;
+	margin: auto;
+}
+
+#header{
+	background-color: #fff;
+	box-shadow:0 2px 2px rgba(0,0,0,0.1);
+	position: fixed;
+	z-index: 1;
+	width:100%;
+}
+
+#header .wrapper{
+	padding-top:0;
+	padding-bottom:0;
+}
+
+#header h1{
+	float:left;
+	font-size:35px;
+	color: #d5d5d5;
+	margin: 12px;
+}
+
+#header h1 a{
+	text-decoration:none;
+	color: inherit; 
+}
+
+#menu ul{
+	list-style-type: none;
+	float:right;
+}
+
+#menu li{
+	display:inline;
+}
+#menu a{
+	text-decoration:none;
+	padding: 10px;
+	color: #000;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	font-size:20px;
+}
+
+#menu a:hover{
+	border: 1px solid #98CB4A;
+}
+
+.active{
+	border: 1px solid #98CB4A !important;
+}
+
+#cover-kids{
+	height:700px;
+	background: url(/images/kids-coding-blur.jpg) no-repeat center center; 
+	background-size:cover;
+	color: #fff;
+	text-shadow: 0 0 5px rgba(0,0,0,.8);
+	text-align:center;
+}
+
+#cover-kids .wrapper{
+	padding-top:200px;
+	font-size: 25px;
+}
+
+#cover-kids h1{
+	font-size: 100px;
+	margin:0px;
+}
+
+#cover-kids p{
+	margin-bottom: 100px;
+}
+
+#cover-kids a{
+	text-decoration: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 5px 25px;
+	color: #fff;
+	text-shadow: none;
+}
+
+#cover-kids a:hover{
+	border: 1px solid #913CCD;
+	background-color:#913CCD;
+}
+
+#sec-info{
+	backgroun-color:#fff;
+}
+
+.section{
+	width:33%;
+	display: inline-table;
+	text-align:center;
+	height:300px;
+}
+
+.section img{
+	width:200px;
+}
+
+.section h2{
+	margin-bottom:10px;
+}
+
+#cover-mission{
+	height:500px;
+	background: url(/images/kids-mission.jpg) no-repeat center center fixed; 
+	background-size:cover;
+}
+
+#sec-mission{
+	background-color:#98CB4A;
+	color:#fff;
+	overflow:auto;
+}
+
+#sec-mission img{
+	width:500px;
+}
+
+
+#cover-problem{
+	height:500px;
+	background: url(/images/graph-chart.jpg) no-repeat center center fixed; 
+	background-size:cover;
+}
+
+#cover-problem img{
+	width:500px;
+}
+
+#sec-problem{
+	overflow:auto;
+}
+
+#sec-problem img{
+	width:500px;
+}
+
+#cover-team{
+	height:500px;
+	background: url(/images/google-office-interior.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+
+#sec-team{
+	background-color:#F7D842;
+}
+
+.profile{
+	min-width:200px;
+	width:23%;
+	background-color:#fff;
+	border-radius:5px;
+	padding: 5px;
+	text-align:center;
+	display:inline-table;
+	margin:0 0 5px 0;
+}
+
+.profile h2{
+	margin:2px;
+}
+
+.profile span{
+	font-weight:bolder;
+}
+
+.profile img{
+	width:120px;
+	border-radius: 50%;
+}
+
+#cover-hola{
+	height:500px;
+	background: url(/images/hola-campus.jpg) no-repeat center center fixed;
+	background-size:cover;
+}
+
+#sec-hola .wrapper{
+	overflow:auto;	
+}
+
+#sec-hola .left{
+	width:50%;
+}
+
+#sec-hola .right{
+	width:45%;
+}
+
+#sec-hola img{
+	width:100%;
+}
+
+
+#sec-kids{
+	background-color:#913CCD;
+}
+
+#sec-kids h2{
+	color:#fff;
+}
+
+.kids-profile{
+	overflow: auto;
+	border-radius:5px;
+	background-color:#fff;
+	margin:20px 5px;
+	padding:20px;
+}
+
+.kids-profile .content{
+	padding-left: 220px;
+}
+
+.kids-profile h3{
+	margin:5px 0;
+}
+
+.kids-profile span{
+	display:block;;
+	font-weight: 600;
+}
+
+.girl{
+	color:#F15F74;
+}
+
+.boy{
+	color:#5481E6;
+}
+
+.kids-profile img{
+	width:200px;
+	float:left;
+	border-radius:50%;
+}
+
+.kids-profile p{
+	margin:0;
+}
+
+#sec-contact{
+	background-color:#2CA8C2;
+	color:#fff
+}
+
+#sec-contact .content{
+	width:50%;
+}
+
+#mentor-requirements{
+	margin-bottom: 80px;
+}
+
+#mentor-requirements span{
+	font-weight: 600;
+}
+
+#mentor-submit{
+	display:none;
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:2;
+	background-color:rgba(0,0,0,.7);
+	text-align:center;
+	color:#fff;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+#mentor-submit .content{
+	height:200px;	
+  	position:absolute;
+ 	top:0;
+	bottom:0;
+  	right:0;
+  	left:0;
+  	margin:auto;
+}
+
+#mentor-submit .content span{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+#footer{
+	background-color:#222;
+	color:#999;
+	text-align:center;
+}
+
+h2{
+	font-weight: 100;
+	font-size: 40px;
+	margin-top:0;
+}
+
+#form-error{
+	background-color: #FF9E9E;
+	border: 1px solid #F00;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 0 2px;
+	display: none;
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Orbitron', sans-serif;
-	color: rgb(255,255,255);
-	font-size: 500%;
-	text-shadow: 0 0 20px rgba(0,0,0,.5);
+input, select, textarea {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 2px;
+	padding: 12px;
+	color: #505050;
+	border: 1px solid #B2B2B2;
+	background-color: #fff;
+	border-radius: 5px;
 }
+
+input[type=text], textarea, #form-error{
+	width:400px;
+}
+
+textarea{
+	height:150px;
+}
+input[type=submit]{
+	color:#fff;
+	background-color:#20869c;
+	padding-left:35px;
+	padding-right:35px;
+	border:1px solid #20869c
+}
+
+input[type=submit]:hover{
+	background-color:#145968;
+}
+
+.social{
+	margin-top:70px;
+	margin-left:30px; /*center the social buttons*/
+}
+
+/*position fb like button*/
+.fb-like{
+	position: relative;
+	top: -6px;
+}
+
+/*Resize the google plus button*/
+#___plusone_0{ 
+	width:62px !important;
+	margin-top:2px;
+}
+
+p{
+	line-height: 30px;
+}
+
+.hr {
+	margin:10px 0;
+	border: 1px solid #2CA8C2;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
 

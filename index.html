@@ -1,16 +1,490 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Hell0World.org</title>
-		<meta charset="utf-8">		
-		<link rel="stylesheet" href="css/global.css" type="text/css" media="all" />
-		<link href='http://fonts.googleapis.com/css?family=Orbitron:400,500' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-		<div id="logo-container">
-			<h1>Hell0World.org</h1>
+<head>
+	<title>Hell0World.org</title>
+	<meta charset="utf-8">
+	
+	<!-- FB meta tags for shares -->
+	<meta property="og:title" content="Transforming the lives of inner city kids through computer education and mentorship." />
+	<meta property="og:site_name" content="hell0world" />
+	<meta property="og:url" content="http://www.hell0world.org" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Hell0World teaches, develops, and sustains interest 
+	of middle and high school students through classroom instructions and inspiring mentors." />
+	<meta property="og:image" content="http://www.hell0world.org/images/hell0world-fb-logo-v2.jpg" /> <!-- at lease 1200x630 -->	
+	<meta property="fb:app_id" content="265024247002028" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="images/hell0world-favicon.png">
+	<link rel="stylesheet" href="css/global.css" type="text/css" media="all" />
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-49692324-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</head>
+<body>
+<div id="fb-root"></div>
+	<!--  FB like code -->
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=265024247002028";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="header">
+		<div class="wrapper">
+			<h1><a href="#cover-kids" title="hell0world.org">&lt;hell0world&gt;</a></h1>
+			<div id="menu">
+				<ul>
+					<li><a href="#sec-mission">Mission</a></li>
+					<li><a href="#sec-team">Team</a></li>
+					<li><a href="#sec-hola">Partners</a></li>
+					<li><a href="#sec-kids">Kids</a></li>
+					<li><a href="#sec-contact">Mentor</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			
+	</div>
+	</div>
+	
+	<!-- Big canvas photo of kids coding with the mentor -->
+	<div id="cover-kids" class="waypoint">
+		<div class="wrapper">
+			<h1>&lt;hell0world&gt;</h1>
+			<p>Transforming the lives of inner city kids through computer
+			education</p>
+			<a href="#sec-contact">Become A Mentor</a>
+			
+			<div class="social">
+				<!-- FB Button -->
+				<div class="fb-like" data-href="http://www.hell0world.org/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+				
+				<!-- G+ Button -->
+				<div class="g-plusone" data-size="medium"></div>
+							
+				<!-- G+ Code -->
+				<script type="text/javascript">
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+				</script> 
+				 
+				<!-- Twitter Button --> 
+				<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="http://www.hell0world.org" data-text="Transforming the lives of inner city kids through computer education and mentorship!" data-via="Hell0WorldOrg">Tweet</a>
+	    		<!-- Twitter Code -->
+	    		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  				    			
+			</div>
 		</div>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript" src="js/global.js"></script>
-	</body>
+	</div>
+	
+	<!-- Small info sections that give quick insights into the different areas -->
+	<div id="sec-info" class="waypoint">
+		<div class="wrapper">
+			<div class="section">
+				<h2>Mentors</h2>
+				<img src="images/info-mentors.png" alt="Mentors">
+				<p>Our mentors deliver the computer science curriculum and check in with their kids on a regular basis.</p>
+			</div>
+			<div class="section">
+				<h2>Communication</h2>
+				<img src="images/info-computer.png" alt="Hardware">
+				<p>We combine Google Hangouts and open access to computer workstations in our schools’ labs.</p>
+			</div>
+			<div class="section">
+				<h2>Technology</h2>
+				<img src="images/info-code.png" alt="Technology">
+				<p>We use Blockly! A web-based, graphical programming editor that uses blocks to build an application. No typing required.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--  Mission Image backdrop -->
+	<div id="cover-mission">
+		<div class="wrapper"></div>
+	</div>
+	
+	<!--  Mission section -->
+	<div id="sec-mission" class="waypoint">
+		<div class="wrapper">
+			<img class="left" src="images/map.png" alt="">
+			<h2>The Mission</h2>
+			<p>To transform the lives of inner city students through computer education. 
+			Hell0World teaches, develops, and sustains interest of middle and high school 
+			students through classroom instructions, peer learning, and inspiring mentors.
+			</p>
+		</div>
+	</div>
+	
+	<!--  Problem Section -->
+	<div id="sec-problem">
+		<div class="wrapper">
+			<h2>The Need for Computer Science Education</h2>
+			<p><img class="right" src="images/graph2.png" alt="">By 2020, there will be 1.4 
+			million software jobs in the US, and over 80% of these jobs will be left unfilled. 
+			Hispanics and Blacks currently comprise of only 5.2% and 4% of these software jobs, respectively, 
+			according to the 2012 Bureau of Labor Statistics.<br/>
+			<br/>
+			In a society where technology plays increasingly important roles, if these trends continue, 
+			our Hispanic and Black youths are facing a future where their role in society is edged out.<br/>
+			<br/> 
+			An education in computer science not only gets students off the streets, it’ll open doors 
+			to an exciting career and limitless opportunities. 
+			</p>
+		</div>
+	</div>
+	
+	<!--  Team Image backdrop -->
+	<div id="cover-team">
+		<div class="wrapper"></div>
+	</div>
+	
+	<!--  Show the team profiles -->
+	<div id="sec-team" class="waypoint">
+		<div class="wrapper">
+			<h2>Team</h2>
+			<div class="profile">
+				<h3>Linh Phan</h3>
+				<img src="images/profile-linh.jpg" alt="Linh Pham">
+				<p><span>Technical Recruiter, Google</span></p>
+			</div>
+			<div class="profile">
+				<h3>Chris Clark</h3>
+				<img src="images/profile-chris.jpg" alt="Chris Clark">
+				<p><span>Software Engineer, Google</span></p>
+			</div>
+			<div class="profile">
+				<h3>Michael Bird</h3>
+				<img src="images/profile-mike.jpg" alt="Michael Bird">
+				<p><span>Software Engineer, Google</span></p>
+			</div>
+			<div class="profile">
+				<h3>Jorge Zamora</h3>
+				<img src="images/profile-jorge.jpg" alt="Jorge Zamora">
+				<p><span>Entrepreneur, VidSocially.com</span></p>
+			</div>
+			<div class="profile">
+				<h3>Abraham Orozco</h3>
+				<img src="images/profile-abraham.jpg" alt="Abraham Orozco">
+				<p><span>Heart of LA (HOLA)</span></p>
+			</div>
+			<div class="profile">
+				<h3>Leslie Dickson</h3>
+				<img src="images/profile-leslie.jpg" alt="Leslie Dickson">
+				<p><span>Teaching Advisor</span><br />
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--  Hola Image backdrop with mission content ontop -->
+	<div id="cover-hola">
+		<div class="wrapper"></div>
+	</div>
+	
+	<!--  Hola info -->
+	<div id="sec-hola" class="waypoint">
+		<div class="wrapper">
+			<div class="right">
+				<img src="images/hola-park-building.jpg"/>
+				<img src="images/lafayettepark-building.jpg"/>
+				<img src="images/hola-central.jpg"/>
+			</div>
+			<div class="left">			
+				<h2>HOLA - Heart of Los Angeles</h2>
+				<p>In neighborhoods often overrun by poverty, 
+				crime and a feeling of hopelessness, Heart of Los Angeles invests in youth to build 
+				stronger communities. Heart of Los Angeles gives some of the city’s most vulnerable 
+				youth a chance to succeed in life.<br/>
+				<br/>
+				From what started 25 years ago with just a handful 
+				of kids in a dilapidated gym, Heart of Los Angeles now serves over 2,400 youth ages 
+				6-24, in a safe and supportive environment. HOLA provides underserved youth with 
+				exceptional programs in academics, arts and athletics within a nurturing environment, 
+				empowering them to develop their potential, pursue their education and strengthen 
+				their communities.<br/>
+				<br> 
+				Heart of Los Angeles operates on a 32,000 square foot campus in the Rampart District, 
+				one of the nation’s most densely populated and diverse neighborhoods. HOLA’s students 
+				are approximately 85% Latino, 7% Asian American, 6% African American and 2% other 
+				ethnicities.<br/>
+				<br/>
+				Of the families that HOLA serves, 90% are living in poverty while all 
+				struggle each day to simply survive. HOLA operates Monday through Saturday year round 
+				and all programs are free, an essential feature for the area's impoverished families.<br/>  
+				<br/>
+				HOLA’s facilities include multiple classrooms, a state-of-the-art field turf soccer 
+				field, a full gymnasium and indoor athletic facility, multiple education and fine 
+				arts libraries, an art studio and gallery, music and orchestra rooms, three computer 
+				labs and a science, technology and digital media center.
+				</p>
+			</div>
+
+		</div>
+	</div>
+	
+	<!--  Show the kid profiles -->
+	<div id="sec-kids" class="waypoint">
+		<div class="wrapper">
+			<h2>Kids in the Program</h2>
+
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image11-square.jpg">
+				<div class="content">
+					<h3>Emily Vanegas</h3>
+					<span class="girl">Age 13, 7th grade</span>			
+					<p>Emily's favorite subject
+					in school is math and she loves learning new things, especially when it
+					comes to technology. She is excited about the class with hell0world.org because
+					it will help her combine both of these things and teach her new skills.
+					Emily lives with her little sister and older brother and she loves to
+					dance. After she graduates from college, she wants to be a dancer or a
+					teacher, or perhaps both.</p>
+				</div>
+			</div>
+
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image01-square.jpg">
+				<div class="content">
+					<h3>Olimpia Aguillon</h3>
+					<span class="girl">Age 14, 8th grade</span>
+					<p>Olimpia loves to run. When her
+					school had a cross country team, she was the star and even made it to
+					the nationals. Her school recently cancelled the track program, but that
+					hasn&rsquo;t stopper her. This year, she joined Students Run LA and just
+					completed her first marathon! Her favorite subjects in school are math
+					and history. She is excited to learn more about technology because
+					&ldquo;it has become such an important part of our society.&rdquo;
+					Olimpia wants to go to Harvard or MIT and after she competes in the
+					Olympics, she wants to be a corporate lawyer or a mechanical engineer.
+					</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image00-square.jpg">
+				<div class="content">
+					<h3>Victor Bailon</h3>
+					<span class="boy">Age 12, 7th grade</span>
+					<p>Victor can&rsquo;t wait for
+					the upcoming class with hell0world.org because he loves all things computers. He
+					spends his spare time playing Minecraft (even coming to HOLA on Saturday
+					mornings to get a little extra play time). Not surprisingly, his
+					favorite subject is math and he wants to be a computer engineer when he
+					grows up. His favorite day at HOLA is Thursdays, because Thursday is
+					sandwich day! Victor isn&rsquo;t shy - when asked what was something
+					interesting about him, he responded &ldquo;my eyes are beautiful.&rdquo;</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image04-square.jpg">
+				<div class="content">
+					<h3>Fernando Teyssier</h3>
+					<span class="boy">Age 12, 7th grade</span>
+					<p>Fernando loves to be outdoors
+					playing soccer, basketball or fishing. He&rsquo;s a math and science guy
+					and wants to be a doctor after he graduates from Pepperdine University
+					(the middle school kids recently took a campus tour). He has been coming
+					to HOLA since he was in elementary school and comes every day with his
+					older brother and older sister. He loves hanging out with his friends
+					and his favorite food is steak.</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image02-square.jpg">
+				<div class="content">
+					<h3>Nicolas Pobleto</h3>
+					<span class="boy">Age 14, 8th grade</span>
+					<p>Nicolas is a computer guy. His
+					dad works with computers and he&rsquo;s learned a lot from him.
+					He&rsquo;s really excited about the class with hell0world.org because he wants
+					to learn even more. He wants to go to MIT and have a career as a
+					software engineer. He has an older and a younger sister who both come to
+					HOLA. Camila is in the high school program and is headed off to college
+					next year. Nicolas loves to draw and he can type an average of 45-55
+					words per minute.</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image06-square.jpg">
+				<div class="content">
+					<h3>Joshua Salazar</h3>
+					<span class="boy">Age 12, 7th grade</span>
+					<p>Joshua has been coming to HOLA
+					since he was nine years old and his favorite thing to do when he&rsquo;s
+					at HOLA is to hang out in the Ceramics Studio and make objects out of
+					clay. HIs favorite subject in school is science and he wants be an
+					engineer after he graduates from UCLA. When he&rsquo;s not at HOLA, he
+					likes to play video games, eat pizza &nbsp;and play basketball with his
+					friends. He&rsquo;s eager to learn new things about computers and the
+					web.</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image10-square.jpg">
+				<div class="content">
+					<h3>Arturo Sanchez</h3>
+					<span class="boy">Age 12, 6th grade</span>
+					<p>Arturo is a big fan of
+					technology. He&rsquo;s hoping that in the class with hell0world.org, he might
+					get a chance to see through Google Glass. He loves to play Minecraft and
+					video games and his favorite subjects in school are math, science and
+					p.e. He&rsquo;s an avid soccer player and even won 1st place in a
+					tournament. He wants to go to USC or one of the Cal States and he hopes
+					to be a doctor when he grows up. Arturo loves pizza, tamales and
+					spaghetti.</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image09-square.jpg">
+				<div class="content">
+					<h3>Grace Shin</h3>
+					<span class="girl">Age 11, 6th grade</span>
+					<p>Grace likes the arts and the
+					sciences. Her favorite classes are math and visual arts and she loves to
+					read and play Minecraft in her spare time. She likes to cook and her
+					favorite food is bean paste soup. She&rsquo;s also a talented musician,
+					studying the piano for the past three years. She wants to go to college
+					somewhere in the Los Angeles area (USC or UCLA) and wants to be a
+					fashion designer or chef when she graduates.</p>
+				</div>
+			</div>
+					
+			<div class="kids-profile">	
+				<img src="images/kids/image03-square.jpg" alt="">
+				<div class="content">
+					<h3>Martiza Vasquez</h3>
+					<span class="girl">Age 13, 8th grade</span>
+					<p>Martiza likes to try new
+					things. She especially likes going on field trips with her fellow HOLA
+					students. She&rsquo;s excited to learn more about technology and her
+					favorite subject in school is math. She won&rsquo;t commit to any
+					particular college at this point, &ldquo;it&rsquo;s way too
+					early.&rdquo; She looks forward to a future of enjoying her life through
+					art and to discovering new things. Maritza&rsquo;s favorite food is
+					lasagna.</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img src="images/kids/image05-square.jpg" alt="">
+				<div class="content">
+					<h3>Pamela Hernandez</h3>
+					<span class="girl">Age 11, 6th grade</span>
+					<p>Pamela loves to read and draw
+					and her favorite classes in school are art and math. She loves to play
+					sports and her favorite food is pizza. She&rsquo;s really excited about
+					the class with hell0world.org because she wants to use her imagination to build
+					new things. She&rsquo;s not really sure where she wants to go to
+					college, but she&rsquo;s thinking perhaps Harvard, Yale or Stanford!</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img src="images/kids/image12-square.jpg" alt="">
+				<div class="content">
+					<h3>Daevon Guerrero</h3>
+					<span class="boy">Age 11, 6th grade</span>
+					<p>Daveon likes to read, play
+					outside and play games on his computer. He likes his science classes
+					best because he really enjoys the experiments. He&rsquo;s excited about
+					the class with hell0world.org because he hopes to &ldquo;meet the founder of
+					Google and hear and see his plans for the future.&rdquo; As of now, he
+					thinks he wants to go to USC and study to become a video game designer.</p>
+				</div>
+			</div>
+				
+			<div class="kids-profile">
+				<img alt="" src="images/kids/image08-square.jpg">
+				<div class="content">
+					<h3>Aileen Mestas</h3>
+					<span class="girl">Age 14, 8th grade</span>
+					<p>Aileen is excited about the
+					class with hell0world.org because she thinks it will be really
+					&ldquo;cool&rdquo; to create her own app. Her favorite class in school
+					is science, but she loves the art classes she gets to take at HOLA. In
+					her spare time she likes to read and to run. She recently completed the
+					LA Marathon after raising the funds to pay for her registration fee!
+					She&rsquo;s still undecided about a career, but thinks she&rsquo;d like
+					to go to college in New York. Aileen&rsquo;s favorite food is pizza.</p>
+				</div>
+			</div>		
+		</div>
+	</div>
+	
+	<!--  Contact info form-->
+	<div id="sec-contact" class="waypoint">
+		<div class="wrapper">			
+			<div class="left content">
+				<h2>Want to become a Mentor?</h2>
+					
+				<div id="mentor-requirements">
+					We have three very simple requirements to becoming a mentor:  					
+					<ol>
+						<li>You love to code.</li>
+						<li>You have half an hour a week to make a difference.</li>
+						<li>You own a computer with internet access.</li>
+					</ol>
+					<span>The session starts the week of 4/21 and runs for 7 weeks.</span>
+				</div>
+				
+				<p>The success of Hell0world.org is dependent on 
+				the collaboration between our mentors and students. While Hell0world.org 
+				is here to provide organizational support, the shared voices between 
+				the students, mentors, and communities will shape the future of the 
+				program.<br/>
+				<br/>
+				We are looking for dedicated mentors to interact with their 
+				students on a regular basis, and to motivate these students to stay 
+				on course in their lessons and in life.</p>
+			</div>
+			<div class="right">			
+				<div id="form-error"></div>
+				<form id="contact-form" method="post" action="contact.php">
+				<input type="text" name="name" placeholder="Name"><br />
+				<input type="text" name="email" placeholder="Email"><br />
+				<textarea name="description" placeholder="Tell us a little about yourself"></textarea><br />
+				<input type="submit" value="SEND"></form>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<!-- Footer with site map and social links -->
+	<div id="footer">
+		<div class="wrapper">©2014 hell0world.org. All rights reserved.</div>
+	</div>
+	
+	<!-- Modal box when the form is submited -->
+	<div id="mentor-submit">
+		<div class="content">
+			<h2>Thank you for your interest in being a Mentor!</h2>
+			<p>We're really excited about the possible Mentor submissions that we get.<br/>
+			People like you are what is going to make this project a success.<br/>
+			<br/>
+			We'll get in contact with you as soon as we get a chance.<br/>
+			<br/>
+			<span>click anywhere to close</span></p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+</body>
 </html>
