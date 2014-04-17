@@ -28,7 +28,7 @@ if($_POST) {
 	//Attempt to send email
 	if ($errors === 0) {
 		$emailfrom = "=?UTF-8?B?" . base64_encode ( 'hell0World.org (Mentor Application)' ) . "?=";
-		$emailto = "recruiterlinh@gmail.com";
+		$emailto = "hell0worldgang@gmail.com";
 		$subject = "hell0World.org (Mentor Application)";
 		
 		$headers = 'From: ' . $emailfrom . ' <contact@hell0world.org>' . "\r\n" . 'Reply-To: ' . $email . "\r\n" . 'X-Mailer: PHP/' . phpversion ();
