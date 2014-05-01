@@ -195,18 +195,21 @@ body, html{
 }
 
 #sec-hola .wrapper{
-	overflow:auto;	
+	overflow:auto;
+	text-align:center;
 }
 
 #sec-hola .left{
 	width:50%;
+	text-align:left;
 }
 
 #sec-hola .right{
+	padding-top:30px;
 	width:45%;
 }
 
-#sec-hola img{
+#sec-hola .right img{
 	width:100%;
 }
 
